@@ -46,7 +46,7 @@ const GameDivMobile = styled.div`
   justify-content: space-between;
   padding-block: 1vh;
   width: 80vw;
-  height: 100vh;
+  height: 90vh;
 `;
 
 const RestartButton = styled.button`
@@ -63,7 +63,7 @@ const RestartButton = styled.button`
 
 const RestartButtonMobile = styled.button`
   position: absolute;
-  top: 48vh;
+  top: 43vh;
   left:70vw;
   background-color: rgba(31, 38, 135, 0.37);
   border: none;
@@ -501,7 +501,7 @@ const App = () => {
             justifyContent: "center",
             alignItems: "center",
             width: "100vw",
-            height: "100vh",
+            height: "90vh",
           }}
           className="bodyDiv"
           id="idBodyGame"
@@ -515,12 +515,13 @@ const App = () => {
           <Select
             style={{
               position: "absolute",
-              top: "48vh",
+              top: "43vh",
               left: "3vw",
               width: "120px",
               fontSize: "1vh",
               transform: "rotate(90deg)",
               background: "transparent",
+              zIndex: "3",
             }}
             defaultValue="Cambia terreno"
             onChange={(e) => {

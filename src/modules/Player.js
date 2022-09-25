@@ -219,7 +219,7 @@ const Player = ({ name, avatar, rotated }) => {
             <img
               src={avatar}
               alt="avatar"
-              style={{ height: "28vh", zIndex: "99", marginTop: "-2vh" }}
+              style={{ height: "23vh", zIndex: "99", marginTop: "4vh" }}
             ></img>
           </ContainerAvatarMobile>
           <ContainerNameMobile>{name}</ContainerNameMobile>
